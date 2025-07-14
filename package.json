@@ -1,1 +1,28 @@
-
+{
+  "name": "DownloadMedias",
+  "version": "1.0.7 (version final)",
+  "description": "A powerful script to extract and download audio (MP3) or video (MP4) from platforms like YouTube, TikTok, Instagram, Facebook, or X / Twitter. Choose how you want to receive it: link, QR Code or saved file.",
+  "main": "script.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": "https://github.com/southxz/DownloadSocialMedias.git",
+  "author": "south dev",
+  "license": "MPL-2.0",
+  "private": false,
+  "dependencies": {
+    "@distube/ytdl-core": "^3.5.4",
+    "@tobyg74/tiktok-api-dl": "^2.0.1",
+    "axios": "^1.6.8",
+    "cfonts": "^3.1.0",
+    "fb-downloader-scrapper": "^1.0.6",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^4.4.0",
+    "inquirer": "^9.2.15",
+    "instagram-url-direct": "^1.2.6",
+    "ms": "^2.1.3",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.10.6"
+  }
+}
