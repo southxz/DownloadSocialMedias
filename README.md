@@ -25,7 +25,7 @@
 
 ## 🛠️ Installation
 
-### 🧪 Termux (Android)
+> Termux (Android)
 
 ```bash
 termux-setup-storage
@@ -35,5 +35,4 @@ pkg install nodejs -y
 pkg install python -y
 git clone https://github.com/southxz/DownloadSocialMedia
 cd DownloadSocialMedia
-node script.js```
-### PC
+node script.js
