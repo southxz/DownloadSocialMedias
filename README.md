@@ -5,7 +5,7 @@
 ---
 
 <details>
-<summary> oi</summary>
+<summary> 🇱🇷 English</summary>
 
 ## Overview
 
@@ -209,4 +209,8 @@ Options:
 This project is licensed under the **Mozilla Public License 2.0**.  
 See the [LICENSE](./LICENSE) file for more details.
 
+</details>
+<details>
+
+<summary> 🇧🇷 Portuguese</summary>
 </details>
