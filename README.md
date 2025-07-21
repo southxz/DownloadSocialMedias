@@ -1,123 +1,90 @@
-# ℹ️ Info Project
 
-> A powerful script to extract and download audio (MP3) or video (MP4) from platforms like YouTube, TikTok, Instagram, Facebook, and Twitter. You can choose how you want to receive your media: Direct Link, QR Code, or Local Download.
+### `Windows / Linux`
+To use the script in cmd you need to install the following programs
 
---- 
+- **[Python]**: To install all necessary dependencies.
+- **[Node]**: To initialize the script.
+- **[Git]**: import the script.
 
-## 🚀 Features 
-- ✅ Extract/Download audio (MP3) or video (MP4). 
-- ✅ YouTube, TikTok, Instagram, Facebook, and Twitter platforms. 
-- ✅ Output via Direct Link, QR Code, or Save to Root. 
-- ✅ Works on Windows, Linux, and Termux (Android). 
-- ✅ Elegant CLI with customizable and straightforward logging.
+[Python]: https://www.python.org/downloads/
+[Node]: https://nodejs.org/en/download
+[Git]: https://git-scm.com/downloads
 
----
+After downloading and correctly configuring the necessary programs, commands to initialize the script:
+<br>
+```node
+git clone https://github.com/southxz/DownloadSocialMedias.git
+```
+<br>
+```node
+cd DownloadSocialMedias
+```
+<br>
+```node
+node south.js
+```
+<br>
+**or via parameter:**
+<br>
+```node
+node south.js [options] <link>
 
-## 📦 Requirements
+Options:
+   -mp4 <link>     download in format mp4
+   -mp3 <link>     download in format mp3
+```
+<br>
 
-- [Node.js](https://nodejs.org) (v16+)
-- Git
-- FFmpeg (already included via `ffmpeg-static`)
-- .[Python](https://www.python.org/downloads/) (for Termux compatibility)
-
----
-
-## 🛠️ Installation
-
-> `📱 Termux (Android)`
+### `Android (Termux)`
 
 ```bash
 termux-setup-storage
 ```
-
+<br>
 ```bash
 pkg update && pkg upgrade
 ```
-
+<br>
 ```bash
 pkg install git -y
 ```
-
+<br>
 ```bash
 pkg install nodejs -y
 ```
-
+<br>
 ```bash
 pkg install python -y
 ```
-
+<br>
 ```bash
-git clone https://github.com/southxz/DownloadSocialMedia
+git clone https://github.com/southxz/DownloadSocialMedia.git
 ```
-```bash
-cd DownloadSocialMedia
-```
-
-> `💻 PC (Windows/Linux)`
-- Node.js [Download Latest version.](https://nodejs.org)
-- Python [Download Latest version.](https://www.python.org/downloads/)
-
-```bash
-git clone https://github.com/southxz/DownloadSocialMedia
-```
-
+<br>
 ```bash
 cd DownloadSocialMedia
 ```
-
----
-
-## 🎮 How to use
-> Before starting the script do:
-`1. Set the parameter`
-`2. Set the link`
-### 🎵 Exemple MP3
+<br>
 ```bash
-node script.js -mp3 https://youtu.be/frfd45...
+node south.js
 ```
-### ▶️ Exemple MP4
-```bash
-node script.js -mp4 https://youtu.be/frfd45...
+<br>
+**`or via parameter`:**
+<br>
+```node
+node south.js [options] <link>
+
+Options:
+   -mp4 <link>     download in format mp4
+   -mp3 <link>     download in format mp3
 ```
+<br>
 
----
+## Acknowledgements
 
-## 🧪 Example Output
 
-```bash
-[SOUTH | INPUT ] Enter the media link:
-> https://youtu.be/dQw4w9WgXcQ
+## Contributing
 
-[SOUTH | INPUT ] Choose format:
-> MP3
 
-[SOUTH | INPUT ] Choose delivery method:
-> QRCode
 
-[SOUTH | QRCODE ] Displaying QR Code...
-
-[SOUTH | SUCCESS ] Media extracted successfully!
-[SOUTH | SUCCESS ] Ready for the next task.
-```
-
----
-
-## 👤 Author
-
-**Created and maintained by [@southxz](https://github.com/southxz)**  
-Feel free to fork, improve or integrate this project. You are allowed to modify this file,  
-but **please keep the credits** to support the original author. ❤️
-
----
-
-## 📊 GitHub Stats
-
-![Visitors](https://komarev.com/ghpvc/?username=southxz&color=blue&style=flat)  
-![Commits](https://img.shields.io/github/commit-activity/m/southxz/DownloadSocialMedia?label=Commits)
-
----
-
-## 📄 License
-
-This project is licensed under the **Mozilla Public License 2.0 (MPL 2.0)**  
-See the [LICENSE](LICENSE) file for more information.
+## License
