@@ -1,6 +1,5 @@
 # DownloadMedias <img align="right" src="https://i.imgur.com/GMhpOXw.png" />
-[![LICENSE](./LICENSE)](https://opensource.org/license/mpl-2-0)
-[![Build Status](https://github.com/Theldus/tinyflex/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Theldus/tinyflex/actions/workflows/c-cpp.yml)
+[![License: Unlicense](https://img.shields.io/badge/License-MPL2.0-8af7ff.svg)](https://opensource.org/license/mpl-2-0)
 
 <br/>
 
@@ -99,27 +98,13 @@ git clone https://github.com/southxz/DownloadSocialMedias.git
 ```bash
 cd DownloadSocialMedias
 ```
-<br/>
-<br/>
 
----
-
-### `Windows (CMD/PowerShell)`
-
-```bash
-git clone https://github.com/southxz/DownloadSocialMedias.git
-```
-<br/>
-```bash
-cd DownloadSocialMedias
-```
-<br/>
 ```bash
 node south.js
 ```
-<br/>
+
 **or via parameter:**
-<br/>
+
 ```bash
 node south.js [options] <link>
 
@@ -127,7 +112,31 @@ Options:
    -mp4 <link>     download in format mp4
    -mp3 <link>     download in format mp3
 ```
-<br/>
+
+### `Windows (CMD/PowerShell)`
+
+```bash
+git clone https://github.com/southxz/DownloadSocialMedias.git
+```
+
+```bash
+cd DownloadSocialMedias
+```
+
+```bash
+node south.js
+```
+
+**or via parameter:**
+
+```bash
+node south.js [options] <link>
+
+Options:
+   -mp4 <link>     download in format mp4
+   -mp3 <link>     download in format mp3
+```
+
 - `C:/Users/<User>/by South` (Windows)
 - `~/Downloads/by South` (Linux)
 
@@ -136,37 +145,37 @@ Options:
 ```bash
 termux-setup-storage
 ```
-<br/>
+
 ```bash
 pkg update && pkg upgrade
 ```
-<br/>
+
 ```bash
 pkg install git -y
 ```
-<br/>
+
 ```bash
 pkg install nodejs -y
 ```
-<br/>
+
 ```bash
 pkg install python -y
 ```
-<br/>
+
 ```bash
 git clone https://github.com/southxz/DownloadSocialMedia.git
 ```
-<br/>
+
 ```bash
 cd DownloadSocialMedia
 ```
-<br/>
+
 ```bash
 node south.js
 ```
-<br/>
+
 **or via parameter:**
-<br/>
+
 ```bash
 node south.js [options] <link>
 
@@ -174,7 +183,7 @@ Options:
    -mp4 <link>     download in format mp4
    -mp3 <link>     download in format mp3
 ```
-<br/>
+
 > Medias save files to:
 - `/sdcard/Download/by South`
 
