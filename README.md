@@ -193,17 +193,6 @@ Options:
 
 ---
 
-## 🙌 Acknowledgements
-
-
----
-
-## 🤝 Contributing
-
-
-
----
-
 ## 📄 License
 
 This project is licensed under the **Mozilla Public License 2.0**.  
@@ -212,5 +201,198 @@ See the [LICENSE](./LICENSE) file for more details.
 </details>
 <details>
 
+---
+
 <summary> 🇧🇷 Portuguese</summary>
+
+## Visão geral 
+
+**DownloadMedias** é uma ferramenta de linha de comando para baixar vídeos ou áudio de plataformas populares de mídia social. Suporta: 
+
+- **YouTube** 
+- **TikTok** 
+- **Instagram** 
+- **Facebook** 
+- **X (Twitter)** 
+
+Você pode receber o conteúdo (MP3/MP4) como: 
+
+- Um arquivo salvo em um diretório específico 
+- Um **Link de Download Direto** 
+- Um **QR Code** para acesso rápido 
+
+--- 
+
+## Instalação 
+
+> **Plataformas Suportadas** 
+
+| Platforma              | Suporte          |
+|------------------------|------------------|
+| Termux (Android)        | ✅ Suporte Total  |
+| Windows 10 / 11         | ✅ Suporte Total (manualmente) |
+| Linux (Debian/Ubuntu)   | ✅ Suporte Total  |
+<br/>
+
+> **Dependências Obrigatórias** 
+
+- **[Python]** – Usado para instalar dependências.
+- **[Node.js (LTS)]** – Necessário para executar o script.
+- **[Git]** – Para clonar o repositório.
+- **[FFmpeg para Windows]** – Essencial para processamento de mídia.
+
+> **Como configurar o FFmpeg no Windows**
+
+1. Baixe e extraia o zip do FFmpeg 
+2. Copie o caminho para a pasta `bin` 
+3. Adicione esse caminho em **Variáveis de Ambiente > Caminho** 
+
+[Python]: https://www.python.org/downloads/ 
+[Node.js (LTS)]: https://nodejs.org/en/download 
+[Git]: https://git-scm.com/downloads 
+[FFmpeg para Windows]: https://www.gyan.dev/ffmpeg/builds/ 
+
+--- 
+
+### Dependências 
+
+| Dependências | Termux | Windows | Linux |
+|-------------|--------|---------|--------|
+| Node.js     | ✅     | ✅       | ✅     |
+| Python      | ✅     | ✅       | ✅     |
+| FFmpeg      | ✅     | ✅ (manual) | ✅  |
+| Git         | ✅     | ✅       | ✅     |
+
+---
+
+### `Linux (Ubuntu/Debian)` 
+> Linux (Ubuntu/Debian) 
+
+```bash 
+sudo apt update
+``` 
+
+```bash 
+sudo apt install git -y
+``` 
+
+```bash 
+sudo apt install nodejs -y
+``` 
+
+```bash 
+sudo apt install ffmpeg -y
+``` 
+
+```bash 
+sudo apt install yarn -y
+``` 
+
+```bash 
+sudo apt install python3 -y
+```
+
+```bash 
+git clone https://github.com/southxz/DownloadSocialMedias.git
+```
+
+```bash 
+cd DownloadSocialMedias
+```
+
+```bash 
+node south.js
+``` 
+
+**ou via parâmetros:** 
+
+```bash 
+node south.js [opções] <link> 
+
+Opções: 
+
+-mp4 <link> baixar no formato mp4 
+-mp3 <link> baixar no formato mp3
+```
+
+### `Windows (CMD/PowerShell)`
+
+```bash 
+git clone https://github.com/southxz/DownloadSocialMedias.git
+``` 
+
+```bash 
+cd DownloadSocialMedias
+``` 
+
+```bash 
+node south.js
+``` 
+
+**ou via parâmetros:**
+
+```bash 
+node south.js [opções] <link> 
+
+Opções: 
+
+-mp4 <link> baixar em formato mp4 
+-mp3 <link> baixar em formato mp3
+``` 
+- `C:/Usuários/<Usuário>/por South` (Windows) 
+- `~/Downloads/por South` (Linux) 
+
+### `Android (Termux)`
+
+```bash 
+termux-setup-storage
+```
+
+```bash 
+pkg update && pkg upgrade
+```
+
+```bash 
+pkg instalar git -y
+```
+
+```bash 
+pkg instalar nodejs -y
+```
+
+```bash 
+pkg instalar python -y
+```
+
+```bash 
+git clone https://github.com/southxz/DownloadSocialMedia.git
+```
+
+```bash 
+cd BaixarSocialMedia 
+```
+
+```bash 
+node south.js
+```
+
+**ou via parâmetros:**
+
+```bash 
+node south.js [opções] <link> 
+
+Opções: 
+
+-mp4 <link> baixar no formato mp4 
+-mp3 <link> baixar no formato mp3
+```
+
+> Arquivos de mídia salvos em: 
+
+- `/sdcard/Download/by South` 
+
+--- 
+
+## 📄 Licença
+Este projeto está licenciado sob a **Licença Pública Mozilla 2.0**. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 </details>
