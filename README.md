@@ -38,7 +38,7 @@ You can receive the content (MP3/MP4) as:
 - **[Python]** – used to install dependencies
 - **[Node.js (LTS)]** – required to run the script
 - **[Git]** – to clone the repository
-- **[FFmpeg]** – essential for media processing
+- **[FFmpeg for Windows]** – essential for media processing
 
 > **How to set up FFmpeg on Windows**
 
