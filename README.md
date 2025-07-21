@@ -1,10 +1,10 @@
-# ℹ️ DownloadMedias <img align="right" src="https://i.imgur.com/GMhpOXw.png" />
-[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-8af7ff.svg)](https://opensource.org/licenses/Unlicense)  
+# DownloadMedias <img align="right" src="https://i.imgur.com/GMhpOXw.png" />
+[![LICENSE](./LICENSE)](https://opensource.org/license/mpl-2-0)
 [![Build Status](https://github.com/Theldus/tinyflex/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Theldus/tinyflex/actions/workflows/c-cpp.yml)
 
 <br/>
 
-## 🌐 Overview
+## Overview
 
 **DownloadMedias** is a command-line tool for downloading videos or audio from popular social media platforms. It supports:
 
@@ -22,7 +22,7 @@ You can receive the content (MP3/MP4) as:
 
 ---
 
-## 📦 Installation
+## Installation
 
 > **Supported Platforms**
 
@@ -53,7 +53,7 @@ You can receive the content (MP3/MP4) as:
 
 ---
 
-### ✅ Dependency Summary
+### Dependency Summary
 
 | Dependency | Termux | Windows | Linux |
 |-------------|--------|---------|--------|
@@ -64,7 +64,7 @@ You can receive the content (MP3/MP4) as:
 
 ---
 
-### 🐧 Linux (Ubuntu/Debian)
+### `Linux (Ubuntu/Debian)`
 
 > Linux (Ubuntu/Debian)
 
@@ -104,23 +104,23 @@ cd DownloadSocialMedias
 
 ---
 
-### 🪟 Windows (CMD/PowerShell)
+### `Windows (CMD/PowerShell)`
 
-```node
+```bash
 git clone https://github.com/southxz/DownloadSocialMedias.git
 ```
 <br/>
-```node
+```bash
 cd DownloadSocialMedias
 ```
 <br/>
-```node
+```bash
 node south.js
 ```
 <br/>
 **or via parameter:**
 <br/>
-```node
+```bash
 node south.js [options] <link>
 
 Options:
@@ -167,7 +167,7 @@ node south.js
 <br/>
 **or via parameter:**
 <br/>
-```node
+```bash
 node south.js [options] <link>
 
 Options:
