@@ -12,21 +12,21 @@ To use the script in cmd you need to install the following programs
 
 After downloading and correctly configuring the necessary programs, commands to initialize the script:
 <br>
-```node
+```bash
 git clone https://github.com/southxz/DownloadSocialMedias.git
 ```
 <br>
-```node
+```bash
 cd DownloadSocialMedias
 ```
 <br>
-```node
+```bash
 node south.js
 ```
 <br>
 **or via parameter:**
 <br>
-```node
+```bash
 node south.js [options] <link>
 
 Options:
