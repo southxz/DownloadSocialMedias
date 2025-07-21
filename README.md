@@ -1,4 +1,4 @@
-# DownloadMedias <img align="right" src="https://i.imgur.com/GMhpOXw.png" />
+# DownloadMedias <img align="right" src="https://imgur.com/a/PeHaQG6" />
 [![License: MPL-2.0](https://img.shields.io/badge/License-MPL2.0-8af7ff.svg)](https://opensource.org/license/mpl-2-0)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=southxz.DownloadSocialMedias)](https://github.com/southxz/DownloadSocialMedias)
 
