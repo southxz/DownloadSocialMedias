@@ -147,6 +147,10 @@ Options:
 
 ### `Android (Termux)`
 
+> Do download `[Termux]` from PlayStore
+
+[Termux]: https://play.google.com/store/apps/details?id=com.termux
+
 ```bash
 termux-setup-storage
 ```
@@ -344,6 +348,10 @@ Opções:
 - `~/Downloads/por South` (Linux) 
 
 ### `Android (Termux)`
+
+> Faça o download do `[Termux]` na PlayStore
+
+[Termux]: https://play.google.com/store/apps/details?id=com.termux
 
 ```bash 
 termux-setup-storage
